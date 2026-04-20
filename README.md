@@ -75,6 +75,18 @@ methods: Reinhard
 |---|---|
 | Raw histopathology images with varying stain styles | Stain-normalized & augmented images with realistic color variation |
 
+#### Original Images (Input)
+
+| 1.png | 2.png | 3.png | 4.png | 5.png | 6.png | 7.png |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| ![1](data/original/1.png) | ![2](data/original/2.png) | ![3](data/original/3.png) | ![4](data/original/4.png) | ![5](data/original/5.png) | ![6](data/original/6.png) | ![7](data/original/7.png) |
+
+#### Augmented Images (Output)
+
+| 1.png | 2.png | 3.png | 4.png | 5.png | 6.png | 7.png |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| ![1](data/augmented/1.png) | ![2](data/augmented/2.png) | ![3](data/augmented/3.png) | ![4](data/augmented/4.png) | ![5](data/augmented/5.png) | ![6](data/augmented/6.png) | ![7](data/augmented/7.png) |
+
 ### Comparison Scripts
 
 | Script | What It Does |
@@ -130,6 +142,14 @@ python datasets_statistics_V1.0.py
 ```bash
 git add .
 git commit -m "Update project files"
+git push
+```
+
+### Update only the README.md:
+
+```bash
+git add README.md
+git commit -m "Update README.md"
 git push
 ```
 
