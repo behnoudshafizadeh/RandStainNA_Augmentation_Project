@@ -123,26 +123,6 @@ python datasets_statistics_V1.0.py
 
 ---
 
-## Push to GitHub
-
-```bash
-# 1. Initialize a git repository
-git init
-
-# 2. Add all files
-git add .
-
-# 3. Create the first commit
-git commit -m "Initial commit: RandStainNA augmentation project"
-
-# 4. Create a new repository on GitHub (via https://github.com/new), then link it:
-git remote add origin https://github.com/YOUR_USERNAME/RandStainNA_Augmentation_Project.git
-
-# 5. Push to GitHub
-git branch -M main
-git push -u origin main
-```
-
 > Replace `YOUR_USERNAME` with your actual GitHub username and the repo name with whatever you chose on GitHub.
 
 ### If you already have a GitHub repo and want to update it:
